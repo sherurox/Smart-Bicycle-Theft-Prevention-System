@@ -2,7 +2,10 @@
 An IoT-based bicycle security solution integrating NFC authentication, LoRa communication, and a web interface to provide real-time alerts and remote monitoring against theft.
 
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/c9217a56-72a9-4413-adff-c765ca1ea3e6" />
+<p align="center">
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/c9217a56-72a9-4413-adff-c765ca1ea3e6" />
+</p>
+
 
 The Smart Bicycle Theft Prevention System integrates NFC and LoRaWAN technologies to provide robust security and real-time monitoring for bicycles. NFC allows authorized users to lock or unlock the bicycle and update its state with date, time, and location, while LoRaWAN enables long-range, low-power communication to transmit periodic location updates to The Things Network (TTN). The system sends the bicycle's location every 15 minutes when locked, and if unauthorized movement is detected, an alert is triggered, increasing the update frequency to every 2 minutes for real-time tracking. The alert mode can be reset by scanning the NFC module. This innovative solution combines theft prevention, remote tracking, and energy efficiency, ensuring enhanced bicycle security and user convenience.
 
@@ -66,9 +69,6 @@ UART (Universal Asynchronous Receiver-Transmitter): Enables seamless data excha
 
 <img width="828" alt="image" src="https://github.com/user-attachments/assets/c7046dcf-025c-4172-b88e-eb9a27ee6bf7" />
 
-<img width="1102" alt="Screenshot 2025-02-11 at 1 08 18 PM" src="https://github.com/user-attachments/assets/8a6bf127-6b8b-4670-a4d7-8a8733650ced" />
-
-
 # Execution Process:
 
 PART1 NFC SCAN:
@@ -85,6 +85,9 @@ PART 3 Website
 Right-click on the folder, select "Send to" > "Compressed (zipped) folder," and rename the resulting zip file (e.g., smart_bike_webserver.zip)
 To load and execute the project , start by ensuring the folder structure is correctly organized. The smart_bike_webserver folder should contain subfolders static (which includes files like script.js, style.css, and image assets such as Lock.gif, 22.jpg, and 2.gif) and templates (which contains the main index.html file). Alongside these, the root folder must include the Python file app.py, the live_data.json file for storing data, and the requirements.txt file for installing dependencies.
 Once the structure is confirmed, open a terminal and navigate to the smart_bike_webserver directory. Use the command pip install -r requirements.txt to install all the necessary Python libraries listed in the requirements.txt file. After the dependencies are installed, you can start the web server by running the command python app.py. This will initialize the server locally, typically accessible at http://127.0.0.1:5000. Open this URL in a web browser to verify that the website is loading correctly and fetching data from the live_data.json file as expected
+
+
+<img width="1102" alt="Screenshot 2025-02-11 at 1 08 18 PM" src="https://github.com/user-attachments/assets/8a6bf127-6b8b-4670-a4d7-8a8733650ced" />
 
 # Challenges Faced and Solution Implemented
 
