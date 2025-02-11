@@ -2,7 +2,7 @@
 An IoT-based bicycle security solution integrating NFC authentication, LoRa communication, and a web interface to provide real-time alerts and remote monitoring against theft.
 
 
-<img width="230" alt="image" src="https://github.com/user-attachments/assets/c9217a56-72a9-4413-adff-c765ca1ea3e6" />
+<img width="1000" alt="image" src="https://github.com/user-attachments/assets/c9217a56-72a9-4413-adff-c765ca1ea3e6" />
 
 The Smart Bicycle Theft Prevention System integrates NFC and LoRaWAN technologies to provide robust security and real-time monitoring for bicycles. NFC allows authorized users to lock or unlock the bicycle and update its state with date, time, and location, while LoRaWAN enables long-range, low-power communication to transmit periodic location updates to The Things Network (TTN). The system sends the bicycle's location every 15 minutes when locked, and if unauthorized movement is detected, an alert is triggered, increasing the update frequency to every 2 minutes for real-time tracking. The alert mode can be reset by scanning the NFC module. This innovative solution combines theft prevention, remote tracking, and energy efficiency, ensuring enhanced bicycle security and user convenience.
 
